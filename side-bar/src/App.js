@@ -21,7 +21,7 @@ function App() {
     <Router>
    
       
-        <button className='btn btn-light' onClick={()=>setActive(!isActive)}>
+        <button className='btn btn-dark' onClick={()=>setActive(!isActive)}>
           <AiOutlineMenu/>
         </button>
 
