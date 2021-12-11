@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Readex+Pro:wght@500&display=swap');
+*{
+ 
+    font-family: 'Readex Pro', sans-serif;
+    overflow: hidden;
+}
+.navBar{
+
+
+    padding: 20px;
+    height: 100vh;
+    background-color: #060608;
+    position: relative;
+    left:0;
+    transition: 350ms;
+    
+}
+.disable{
+   display: none;
+   
+
+
+}
+
+.navItem{
+    border-radius: 20px;
+    display: flex ;
+    align-items:center;
+    justify-content: start;
+    padding:10px;
+
+    
+}
+.navText{
+    text-decoration: none;
+    color:white;
+    display: flex;
+    align-items: center;
+    margin-inline: 6px;
+    cursor: pointer;
+}
+.navItem:hover{
+    border-radius: 20px;
+    background-color: dodgerblue;
+    color:white;
+}
+.end{
+    position:absolute !important;
+    top:90%
+}
